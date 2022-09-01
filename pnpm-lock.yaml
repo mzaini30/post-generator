@@ -1,12 +1,23 @@
 lockfileVersion: 5.4
 
 specifiers:
+  kumpulan-tools: ^1.0.0
   prettier: ^2.7.1
+  readline-sync: ^1.4.10
 
 dependencies:
+  kumpulan-tools: 1.0.0
   prettier: 2.7.1
+  readline-sync: 1.4.10
 
 packages:
+  /kumpulan-tools/1.0.0:
+    resolution:
+      {
+        integrity: sha512-8RzuLboxhTjMBjp7TbnqOnDYmV4ZATGZof37ccgREsEcg0O6ywc+nC9yyKhRKpx8jyo3+gVWusfAdN287IxoaA==,
+      }
+    dev: false
+
   /prettier/2.7.1:
     resolution:
       {
@@ -14,4 +25,12 @@ packages:
       }
     engines: { node: ">=10.13.0" }
     hasBin: true
+    dev: false
+
+  /readline-sync/1.4.10:
+    resolution:
+      {
+        integrity: sha512-gNva8/6UAe8QYepIQH/jQ2qn91Qj0B9sYjMBBs3QOB8F2CXcKgLxQaJRP76sWVRQt+QU+8fAkCbCvjjMFu7Ycw==,
+      }
+    engines: { node: ">= 0.8.0" }
     dev: false

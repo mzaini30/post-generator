@@ -1,6 +1,8 @@
 {
   "dependencies": {
-    "prettier": "^2.7.1"
+    "kumpulan-tools": "^1.0.0",
+    "prettier": "^2.7.1",
+    "readline-sync": "^1.4.10"
   },
   "scripts": {
     "prettier": "prettier . --write"
