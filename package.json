@@ -1,5 +1,8 @@
 {
-	"dependencies": {
-		"prettier": "^2.7.1"
-	}
+  "dependencies": {
+    "prettier": "^2.7.1"
+  },
+  "scripts": {
+    "prettier": "prettier . --write"
+  }
 }
